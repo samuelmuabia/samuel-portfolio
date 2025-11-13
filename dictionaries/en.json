@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Software Engineer | WordPress Developer | Full-Stack & Mobile Automation Specialist",
+    "summary": "Motivated professional with 2.5+ years of experience and a current Master's student in Computer Science in Germany. Specialized in WordPress development, full-stack development, mobile automation, and performance optimization.",
+    "ctaWork": "View My Work",
+    "ctaCV": "Download CV"
+  },
+  "skills": {
+    "title": "My Technical Skills",
+    "programming": {
+      "title": "Programming & Frameworks",
+      "items": ["PHP", "JavaScript", "Python", "Golang"]
+    },
+    "automation": {
+      "title": "Automation & Testing",
+      "items": ["Appium", "Mocha", "Selenium"]
+    },
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "items": ["AWS", "Docker", "CI/CD"]
+    },
+    "databases": {
+      "title": "Databases & Backend",
+      "items": ["MySQL", "PostgreSQL", "Redis"]
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "roles": [
+      {
+        "title": "Software Engineer",
+        "company": "Brain Station 23 PLC",
+        "period": "July 2024 – September 2025",
+        "location": "Dhaka, Bangladesh",
+        "achievements": [
+          "Led architecture & implementation of a mobile automation framework (Appium, WebdriverIO) for the myBL app.",
+          "Significantly improved test efficiency, reliability, and reduced execution time by 40%.",
+          "Conducted performance testing (Apache JMeter) to optimize server load and response times.",
+          "Led migration from Predis to PhpRedis for the MyGP App, enhancing backend performance for millions of users.",
+          "Maintained high standards through code reviews, debugging, and documentation."
+        ]
+      },
+      {
+        "title": "Associate Software Engineer",
+        "company": "Brain Station 23 PLC",
+        "period": "January 2024 – June 2024",
+        "location": "Dhaka, Bangladesh",
+        "achievements": [
+          "Developed & maintained custom WordPress sites for international clients (Netherlands, Norway).",
+          "Built the complete Alliance Française de Dhaka website with custom plugins, API integration, and an online registration system.",
+          "Revamped the Larive International (Netherlands) corporate site from Figma designs.",
+          "Managed AWS server migration (EC2, S3, CloudFront) for clients.",
+          "Developed a custom email notification system for CMC Group Europe to automate business workflows."
+        ]
+      },
+      {
+        "title": "Software Engineer Trainee",
+        "company": "Brain Station 23 PLC",
+        "period": "September 2022 – December 2023",
+        "location": "Dhaka, Bangladesh",
+        "achievements": [
+          "Gained foundational experience in PHP, HTML, CSS, and WordPress development.",
+          "Assisted in debugging, testing, and documentation for client projects.",
+          "Actively participated in structured training on agile methodologies and development best practices."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "note": "Note: Source code for these projects is proprietary and not publicly available due to company policy.",
+    "items": [
+      {
+        "title": "MyGP App - Backend Optimization",
+        "description": "Led performance-critical migration from Predis to PhpRedis for a high-traffic mobile application, resulting in 50% reduction in response times and improved system scalability.",
+        "technologies": ["PHP", "Laravel", "Lumin","Redis", "MySQL", "AWS"],
+        "liveUrl": "https://www.grameenphone.com/personal/services/digital-services/mygp-app",
+        "image": "/projects/mygp.png",
+        "category": "Backend Development"
+      },
+      {
+        "title": "myBL App - Mobile Automation Framework",
+        "description": "Architected and developed a comprehensive mobile automation testing framework using Appium and WebdriverIO, increasing test coverage from 60% to 95% and reducing manual testing time by 70%.",
+        "technologies": ["Appium", "WebdriverIO", "JavaScript", "Mocha", "Node.js"],
+        "liveUrl": "https://banglalink.net/en/apps-and-services/apps/mybl",
+        "image": "/projects/mybl.png",
+        "category": "Mobile Automation"
+      },
+      {
+        "title": "Alliance Française de Dhaka",
+        "description": "Developed a full-stack wordpress application for a prestigious language learning institution, featuring course management from api, student enrollment, Event management, and more.",
+        "technologies": ["Wordpress", "PHP", "AWS", "MySQL", "WooCommerce"],
+        "liveUrl": "https://www.afdhaka.org",
+        "image": "/projects/afdhaka.png",
+        "category": "Full-Stack WordPress Development"
+      },
+      {
+        "title": "Larive International (Netherlands)",
+        "description": "Built an enterprise-level application with focus on scalability and performance, handling complex business logic and high-volume transactions.",
+        "technologies": ["WordPress", "PHP", "AWS", "S3 Bucket", "MySQL","JavaScript", "MySQL","Custom Plugins"],
+        "liveUrl": "https://www.larive.com",
+        "image": "/projects/larive.png",
+        "category": "Enterprise WordPress Development"
+      },
+      {
+        "title": "CMC Group Europe - WordPress Website",
+        "description": "Developed a custom WordPress website with advanced features including multilingual support, custom post types, and integrated payment gateway for a European business group.",
+        "technologies": ["WordPress", "PHP", "MySQL", "WooCommerce", "Custom Themes"],
+        "liveUrl": "https://cmcgroup-europe.eu",
+        "image": "/projects/cmcgroup.png",
+        "category": "WordPress Development"
+      },
+      {
+        "title": "Exerto - WordPress Portal",
+        "description": "Created a feature-rich WordPress portal with custom plugins, advanced content management, and SEO optimization for a digital media platform.",
+        "technologies": ["WordPress", "PHP", "JavaScript", "Custom Plugins", "SEO"],
+        "liveUrl": "http://exerto.no",
+        "image": "/projects/exerto.png",
+        "category": "WordPress Development"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "message": "I'm currently open to new opportunities and would love to connect. Feel free to reach out!",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "text": "© 2025 Samuel Muabia Planet. All rights reserved."
+  }
+}
+
